@@ -1,0 +1,188 @@
+* {
+    margin: 0 0 ;
+
+ }
+ body{
+  background-color: #F2F2F2;
+ 
+ }
+
+
+header {
+    width: 100%;
+    height: 9%;
+    background-color: #374342;
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    }
+    header h1 {
+        color: white;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .contenedor1{
+      display: grid;
+      grid-template-columns: 30% 70%;
+       margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 5%;
+      
+    }
+    .present{
+      margin-top: 10%;
+     margin-left:5%;
+     background-color: #BEBDBF;
+     padding: 10%;
+     border-radius: 10px;
+     
+      }
+    .present h4{
+      font-size: 150%;
+      text-align: center; 
+      color: white;
+    }
+    .present p{
+      font-size: 200%;
+      text-align: justify;
+    }
+    .proyectos b{
+      font-size: 200%;
+      color: black;
+    }
+.bienvenida{
+ padding-top: 7%;
+ font-size: 400%;
+ padding-bottom: 1%;
+  /* background-color: #899B9F; */
+  height: 10%;
+  display: grid;
+  place-items: center;
+  color: black;
+
+}
+
+
+.contenedor{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    /* background-color: #BEBDBF; */
+   
+    
+}
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+    text-align: center;
+    font-size: 250%;
+}
+.quien_soy,.calendario, .factura, .formulario  {
+margin-top: 5%;
+padding-top: 20%;
+width: 90%;
+border: solid 2px #374342;
+border-radius: 10px;
+padding-bottom: 5%;
+background-color: #BEBDBF;
+
+}
+
+
+ 
+.img1{
+   text-align: center;
+}
+
+ 
+  /* imagenes */
+  .avatar{
+    border-radius: 100%;
+    width: 150px;
+    border: solid 3px #374342;
+   
+  }
+  
+.bombilla, .formul, .calend{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 10%; */
+    border: solid 3px #374342;
+}
+
+@media(max-width: 1300px) {
+  .bienvenida{
+    padding-top: 10%;
+    font-size: 350%;  
+      }
+      .proyectos b{
+        font-size: 180%;
+       
+      }
+      .contenedor{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+             
+        
+    }
+    }
+    @media(max-width: 1000px) {
+      
+header { 
+  height: 7%;
+  
+  }
+  .contenedor1{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 90%;
+     margin-left: 5;
+    margin-right: 5;
+    
+  }
+  .contenedor{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 0;
+         
+    
+}
+.present{
+  margin-top: 0;
+  padding: 5%; 
+  }
+  .bienvenida{
+    font-size: 300%;
+  }
+              }
+@media(max-width: 700px) {
+  .contenedor{
+       display: grid;
+    grid-template-columns: 100%
+  }
+  .bienvenida{
+    padding-top: 15%;
+    font-size: 230%;  
+    margin-left: 0;
+      }
+      .quien_soy,.calendario, .factura, .formulario {
+         width: 95%;
+               
+        }
+}
+@media(max-width: 550px) {
+  .bienvenida{
+    padding-top: 25%;
+    font-size: 170%;
+   
+   
+   }
+}
+
