@@ -82,7 +82,7 @@ h2 {
     text-align: center;
     font-size: 250%;
 }
-.quien_soy,.calendario, .factura, .formulario, .presupuesto, .proximo  {
+.quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda {
 margin-top: 5%;
 padding-top: 20%;
 width: 90%;
@@ -108,7 +108,7 @@ background-color: #BEBDBF;
    
   }
   
-.bombilla, .formul, .calend, .presupuest, .proxim{
+.bombilla, .formul, .calend, .presupuest, .tienda{
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -172,7 +172,7 @@ header {
     font-size: 230%;  
     margin-left: 0;
       }
-      .quien_soy,.calendario, .factura, .formulario, .presupuesto, .proximo {
+      .quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda {
          width: 95%;
                
         }
