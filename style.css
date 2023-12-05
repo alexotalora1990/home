@@ -97,10 +97,6 @@ padding-bottom: 5%;
 
 }
 
-.quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda, .citas{
-    transform: scale(1.1); 
-  }
-
  
 .img1{
    text-align: center;
