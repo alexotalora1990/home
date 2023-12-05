@@ -83,7 +83,7 @@ h2 {
     font-size: 250%;
 }
 .quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda, .citas {
-margin-top: 5%;
+margin-top: 10%;
 padding-top: 18%;
 width: 80%;
 border: solid 2px #374342;
@@ -186,7 +186,7 @@ header {
     font-size: 230%;  
     margin-left: 0;
       }
-      .quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda {
+      .quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda, .citas {
          width: 95%;
                
         }
