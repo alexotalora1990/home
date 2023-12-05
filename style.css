@@ -82,7 +82,7 @@ h2 {
     text-align: center;
     font-size: 250%;
 }
-.quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda {
+.quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda.citas {
 margin-top: 5%;
 padding-top: 20%;
 width: 90%;
