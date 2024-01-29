@@ -1,78 +1,204 @@
-<!DOCTYPE html>
-<html lang="es">
+* {
+    margin: 0 0 ;
+    
+     
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    
+    }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-    <script src="./home.js"></script>
-    <header>
-        <h1>alex_otalora</h1>
-    </header>
-    <div class="bienvenida">
-        <h4>BIENVENIDOS A MI WEB</h4>
-    </div>
-    <div class="contenedor1">
-
-        <div class="present">
-
-            <p>Soy <b> Alvaro Alexis Otalora Corredor </b> Aprendiz de Analisis y Desarrollo de Software del Sena-San
-                Gil,
-                te invito a:</p>
-            <p class="proyectos"> <b>Conocer Mis Proyectos</b></p>
-        </div>
-
-        <div class="contenedor">
-
-            <div class="quien_soy">
-
-                <div class="img1"> <a title="" href="https://quien-soy-fiat.onrender.com"> <img src="avatar.jpg" alt=""
-                            class="avatar"> </a></div>
-                <h2>Quien Soy</h2>
-            </div>
-            <div class="calendario">
-
-                <div class="img1"> <a title="" href="https://calendario-alex.onrender.com"><img src="calendario.png"
-                            alt="" class="calend"></a></div>
-                <h2>Calendario 2023</h2>
-            </div>
-            <div class="factura">
-
-                <div class="img1"> <a title="bombilla" href="https://factura-1qt9.onrender.com"><img src="bombilla.png"
-                            alt="bombilla" class="bombilla"></a></div>
-                <h2>Factura</h2>
-            </div>
-            <div class="formulario">
-
-                <div class="img1"> <a title="" href="https://formulario-wtbm.onrender.com"> <img src="formul.png" alt=""
-                            class="formul"></a></div>
-                <h2>Formulario</h2>
-            </div>
-            <div class="presupuesto">
-
-                <div class="img1"> <a title="" href="https://presupuesto-t3wr.onrender.com"> <img src="presupuesto.png"
-                            alt="" class="presupuest"></a></div>
-                <h2>presupuesto</h2>
-            </div>
-            <div class="tienda">
-
-                <div class="img1"> <a title="tienda" href="https://martinkids.onrender.com"> <img src="logo.png" alt="" class="tiend"></a></div>
-                <h2>MartinKids</h2>
-            </div>
-            <div class="citas">
-
-                <div class="img1"> <a title="citas" href="https://citasveterinaria.onrender.com/"> <img src="" alt="" class="tiend"></a></div>
-                <h2>Citas Veterinaria</h2>
-            </div>
+ 
+ body{
+  background-color: #F2F2F2;
+ 
+ }
 
 
+header {
+    width: 100%;
+    height: 9%;
+    background-color: #374342;
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+     z-index: 1;
+    }
+    header h1 {
+        color: white;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .contenedor1{
+      display: grid;
+      grid-template-columns: 30% 70%;
+       margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 5%;
+      
+    }
+    .present{
+      margin-top: 10%;
+     margin-left:5%;
+     background-color: #BEBDBF;
+     padding: 10%;
+     border-radius: 10px;
+     
+      }
+    .present h4{
+      font-size: 150%;
+      text-align: center; 
+      color: white;
+    }
+    .present p{
+      font-size: 200%;
+      text-align: justify;
+    }
+    .proyectos b{
+      font-size: 200%;
+      color: black;
+    }
+.bienvenida{
+ padding-top: 7%;
+ font-size: 400%;
+ padding-bottom: 1%;
+  /* background-color: #899B9F; */
+  height: 10%;
+  display: grid;
+  place-items: center;
+  color: black;
 
-        </div>
-    </div>
-</body>
+}
 
-</html>
+
+.contenedor{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    /* background-color: #BEBDBF; */
+   
+    
+}
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+    text-align: center;
+    font-size: 250%;
+}
+.quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda, .citas, .turnador {
+margin-top: 10%;
+padding-top: 18%;
+width: 80%;
+/* border: solid 2px #374342; */
+
+padding-bottom: 5%;
+
+    border-radius: 14px;
+     background: #dddfe2;
+     box-shadow:  7px 7px 14px #9b9c9e,
+                  -7px -7px 14px #ffffff;
+
+}
+
+ 
+.img1{
+   text-align: center;
+}
+
+ 
+  /* imagenes */
+  .avatar{
+    border-radius: 100%;
+    width: 150px;
+    border: solid 3px #374342;
+   
+  }
+  
+.bombilla, .formul, .calend, .presupuest{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 10%; */
+    border: solid 3px #374342;
+}
+.tiend{
+     border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    /* margin-top: 10%; */
+    border: solid 3px #374342;}
+
+
+@media(max-width: 1300px) {
+  .bienvenida{
+    padding-top: 10%;
+    font-size: 350%;  
+      }
+      .proyectos b{
+        font-size: 180%;
+       
+      }
+      .contenedor{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+             
+        
+    }
+    }
+    @media(max-width: 1000px) {
+      
+header { 
+  height: 7%;
+  
+  }
+  .contenedor1{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 90%;
+     margin-left: 5;
+    margin-right: 5;
+    
+  }
+  .contenedor{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 0;
+         
+    
+}
+.present{
+  margin-top: 0;
+  padding: 5%; 
+  }
+  .bienvenida{
+    font-size: 300%;
+  }
+              }
+@media(max-width: 700px) {
+  .contenedor{
+       display: grid;
+    grid-template-columns: 100%
+  }
+  .bienvenida{
+    padding-top: 15%;
+    font-size: 230%;  
+    margin-left: 0;
+      }
+      .quien_soy,.calendario, .factura, .formulario, .presupuesto, .tienda, .citas {
+         width: 95%;
+               
+        }
+}
+@media(max-width: 550px) {
+  .bienvenida{
+    padding-top: 25%;
+    font-size: 170%;
+   
+   
+   }
+}
